@@ -1,0 +1,95 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    border: 1px solid;
+    height: auto;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border-color: #EC9854;
+    border: 5px solid #DC9A68;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.profilecard {
+    padding: 45px;
+}
+
+.cclogo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 40%;
+}
+
+.container .profile-photo {
+    width: 70%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    border: 5px solid #B32911;
+}
+
+.name {
+    color: #C84C26;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.container p {
+    color: #C84C26;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.igIcon {
+    width: 50px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gmailIcon {
+    width: 50px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* .flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: auto;
+    perspective: 500px;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(360deg);
+}
+
+.flip-box-inner img{
+padding-left: 10px;
+padding-right: 10px;
+} */
